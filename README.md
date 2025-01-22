@@ -1,5 +1,6 @@
-# Витя говорит нужно прописать импорт всех ручек в файл __init__ это в api/book/__init__
-from . import info, login
+# Витя говорит нужно прописать импорт всех файлов с ручками  в файл __init__ это в api/book/__init__
+from . import book - у тебя хто есть в твоем проекте если что
+
 1. Проверьте содержимое `mem_router`:
 ```python
 # app/api/mem/router.py
